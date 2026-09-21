@@ -29,10 +29,10 @@ def test_is_valid_phone_type_error():
         is_valid_phone(1234567890)
 
 
-# def test_mask_email_basic():
-#     email = "priya@example.com"
-#     result = mask_email(email)
-#     assert result == "pr***@example.com"
+def test_mask_email_basic():
+    email = "priya@example.com"
+    result = mask_email(email)
+    assert result == "pr***@example.com"
 
 
 # def test_mask_email_invalid():
